@@ -17,7 +17,9 @@ pip install pykx polars
 
 ### Running Script
 
-```
+Polars queries are from [polars-groupby](https://github.com/duckdblabs/db-benchmark/blob/master/polars/groupby-polars.py)
+
+```bash
 python db-benchmark/pykx-bmk.py
 python db-benchmark/polars-bmk.py
 ```
