@@ -2,7 +2,7 @@
 
 ### Generate Data
 
-Use script from ![db-benchmark](https://github.com/duckdblabs/db-benchmark) to generate data.
+Use script from [db-benchmark](https://github.com/duckdblabs/db-benchmark) to generate data.
 
 ```bash
 # creates G1_1e7_1e2_0_0.csv
