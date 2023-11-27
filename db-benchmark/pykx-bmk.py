@@ -117,7 +117,7 @@ t_start = timeit.default_timer()
 ans = kx.q.qsql.select(
     x,
     {
-        "largest2_v3": "2#desc v3",
+        "largest2_v3": "{m: max x; $[1<sum x = m;2#m;m, max x except m]} v3",
     },
     by={
         "id6": "id6",
