@@ -136,6 +136,8 @@ ans = ans.ungroup()
 t = timeit.default_timer() - t_start
 print_usage(t, "largest two v3 by id6")
 
+t_start = timeit.default_timer()
+
 ans = kx.q.qsql.select(
     x,
     {
@@ -148,6 +150,8 @@ ans = kx.q.qsql.select(
 )
 t = timeit.default_timer() - t_start
 print_usage(t, "regression v1 v2 by id2 id4")
+
+t_start = timeit.default_timer()
 
 ans = kx.q.qsql.select(
     x,
