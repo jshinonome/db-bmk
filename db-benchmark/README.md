@@ -39,6 +39,6 @@ time: time used, the lower the better
 | sum v1:v3 by id6            |        1.012 |        45.393 |           0.734 |         193.068 |        0.235x |
 | median v3 sd v3 by id4 id5  |        1.091 |       305.644 |           0.746 |         155.055 |        1.971x |
 | max v1 - min v2 by id3      |        1.113 |       346.257 |           0.734 |         141.168 |        2.452x |
-| largest two v3 by id6       |        1.243 |       812.762 |           0.737 |         391.528 |        2.075x |
+| largest two v3 by id6       |        1.243 |       547.052 |           0.737 |         391.528 |        1.397x |
 | regression v1 v2 by id2 id4 |        1.328 |      1015.523 |           0.750 |         353.580 |        2.872x |
 | sum v3 count by id1:id6     |        3.478 |      4032.050 |           1.343 |         689.885 |        5.844x |
